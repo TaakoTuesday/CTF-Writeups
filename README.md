@@ -21,9 +21,9 @@ In every write-up, I follow a standardized penetration testing lifecycle to ensu
 5. `Privilege Escalation`: Identifying paths to root or Administrator.
 
 # 📂 Repository Structure
-Each directory contains the final report (PDF or Markdown) along with any non-sensitive custom scripts or notes used during the process.
+Each file contains the final report along with any non-sensitive custom scripts or notes used during the process.
 
-The directory name will always be `MachineName`(`Tag`):
+The filename will always be `MachineName`(`Tag`):
 - HackTheBox - HTB
 -  TryHackMe - THM
 -  HackSmarter - HSM
