@@ -76,19 +76,19 @@ root@hunter.hsm: Permission denied (publickey).
 
 ## HTTP (80)
 
-I tried test:tester as `login` creds with `burpsuite`and got no unique response from the server. Fuzzing usernames through this page will not provide any hints.
+- I tried test:tester as `login` creds with `burpsuite`and got no unique response from the server. Fuzzing usernames through this page will not provide any hints.
 
 <img width="853" height="571" alt="image" src="https://github.com/user-attachments/assets/037cd558-4653-471d-a7dc-5dc775e6e421" />
 
 
-Tried test as the username on `reset` page and got “If an account matches that username, a reset link has been sent to the email on file.” This is the page to try fuzzing usernames on.
+- I tried test as the username on `reset` page and got “If an account matches that username, a reset link has been sent to the email on file.” This is the page to try fuzzing usernames on.
 
 ### TurboIntruder
 
 <img width="1280" height="840" alt="image" src="https://github.com/user-attachments/assets/15fc506f-6c4f-41b1-96e0-a3b03b635118" />
 
 
-I ran `TurboIntruder` extension in `Burpsuite` to attack the `reset` page.
+- I ran `TurboIntruder` extension in `Burpsuite` to attack the `reset` page.
 
 <img width="1280" height="840" alt="image" src="https://github.com/user-attachments/assets/56cf09fe-737c-4b7c-b3fc-8e0ce142c7a9" />
 
